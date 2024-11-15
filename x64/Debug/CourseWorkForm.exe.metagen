@@ -1,0 +1,156 @@
+  CourseWorkForm.Addrs.resources - Embedded, ContainedInManifestFile, 
+  CourseWorkForm.Adminmenu.resources - Embedded, ContainedInManifestFile, 
+  CourseWorkForm.Fullrs.resources - Embedded, ContainedInManifestFile, 
+  CourseWorkForm.MainWindow1.resources - Embedded, ContainedInManifestFile, 
+  CourseWorkForm.Registration.resources - Embedded, ContainedInManifestFile, 
+  CourseWorkForm.Sign.resources - Embedded, ContainedInManifestFile, 
+  CourseWorkForm.Statistic.resources - Embedded, ContainedInManifestFile, 
+  CourseWorkForm.UserWindow.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CourseWorkForm, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Library, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly WindowsFormsIntegration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Class CourseWorkForm.Addrs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CourseWorkForm.Adminmenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CourseWorkForm.House: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Type : Public
+    System.String Country : Public
+    Int32 Size : Public
+    Int32 NumRooms : Public
+  Methods:
+    LoadFromDatabase(SqlDataReader): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CourseWorkForm.ResidentialHouse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CourseWorkForm.House
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[CourseWorkForm.ResidentialHouse] residentialHouses : Public, Static
+  Methods:
+    LoadAllFromDatabase(SqlConnection): PrivateScope, Public, Static, HideBySig
+Class CourseWorkForm.Apartment: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CourseWorkForm.House
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[CourseWorkForm.Apartment] apartments : Public, Static
+  Methods:
+    LoadAllFromDatabase(SqlConnection): PrivateScope, Public, Static, HideBySig
+Class CourseWorkForm.Office: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CourseWorkForm.House
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[CourseWorkForm.Office] offices : Public, Static
+  Methods:
+    LoadAllFromDatabase(SqlConnection): PrivateScope, Public, Static, HideBySig
+Class CourseWorkForm.Shop: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CourseWorkForm.House
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[CourseWorkForm.Shop] shops : Public, Static
+  Methods:
+    LoadAllFromDatabase(SqlConnection): PrivateScope, Public, Static, HideBySig
+Class CourseWorkForm.Industrial: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CourseWorkForm.House
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[CourseWorkForm.Industrial] industrials : Public, Static
+  Methods:
+    LoadAllFromDatabase(SqlConnection): PrivateScope, Public, Static, HideBySig
+Class CourseWorkForm.Warehouse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CourseWorkForm.House
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[CourseWorkForm.Warehouse] warehouses : Public, Static
+  Methods:
+    LoadAllFromDatabase(SqlConnection): PrivateScope, Public, Static, HideBySig
+Class CourseWorkForm.UserFrom: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String userLogin : Public
+    System.String userPassword : Public
+    System.ValueType userID Int32 IsBoxed : Public
+    System.ValueType isadmin Boolean IsBoxed : Public
+  Methods:
+    setRole(ValueType Boolean IsBoxed): PrivateScope, Public, HideBySig
+    getRole(): PrivateScope, Public, HideBySig
+    GetPass(): PrivateScope, Public, HideBySig
+    GetuserID(): PrivateScope, Public, HideBySig
+    GetLogin(): PrivateScope, Public, HideBySig
+    setPass(String): PrivateScope, Public, HideBySig
+    SetuserID(ValueType Int32 IsBoxed): PrivateScope, Public, HideBySig
+    setLogin(String): PrivateScope, Public, HideBySig
+Class CourseWorkForm.Fullrs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CourseWorkForm.Registration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+  Methods:
+    button1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+Class CourseWorkForm.Statistic: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CourseWorkForm.UserWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form objM : Public
+    System.Windows.Forms.Button button2 : Public
+    System.Windows.Forms.Button button3 : Public
+    Boolean isButton3Pressed : Public
+    Boolean isButton2Pressed : Public
+  Methods:
+    IsButton3Pressed(): PrivateScope, Public, HideBySig
+    getIsButton3Pressed(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    getIsButton2Pressed(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    IsButton2Pressed(): PrivateScope, Public, HideBySig
+Class CourseWorkForm.MainWindow1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(CourseWorkForm.UserFrom): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label3 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    CourseWorkForm.UserFrom user : Public
+Class CourseWorkForm.Sign: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

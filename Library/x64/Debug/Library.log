@@ -1,0 +1,15 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  Library.cpp
+  MyUserControl.cpp
+C:\Users\mrfre\source\repos\CourseWorkForm\Library\MyUserControl.h(55,16): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+  (compiling source file '/MyUserControl.cpp')
+  
+C:\Users\mrfre\source\repos\CourseWorkForm\Library\MyUserControl.h(56,21): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+  (compiling source file '/MyUserControl.cpp')
+  
+  UsersForAdmin.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Library.vcxproj -> C:\Users\mrfre\source\repos\CourseWorkForm\x64\Debug\Library.dll

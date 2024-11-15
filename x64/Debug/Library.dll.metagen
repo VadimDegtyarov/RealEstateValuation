@@ -1,0 +1,55 @@
+  Library.MyUserControl.resources - Embedded, ContainedInManifestFile, 
+  Library.UsersForAdmin.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Library, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Library.Class1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Library.MyUserControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label Message : Public
+    System.Windows.Forms.Label Title : Public
+    System.Windows.Forms.PictureBox Image : Public
+    System.String Country : Public
+    System.ValueType SizeH Int32 IsBoxed : Public
+    System.ValueType setNumRoom Int32 IsBoxed : Public
+  Methods:
+    GetMessageLabel(): PrivateScope, Public, HideBySig
+    GetTitleLabel(): PrivateScope, Public, HideBySig
+    GetImagePictureBox(): PrivateScope, Public, HideBySig
+    GetName(): PrivateScope, Public, HideBySig
+    SetCountry(String): PrivateScope, Public, HideBySig
+    GetCountry(): PrivateScope, Public, HideBySig
+    GetSize(): PrivateScope, Public, HideBySig
+    SetSize(ValueType Int32 IsBoxed): PrivateScope, Public, HideBySig
+    GetNumRoom(): PrivateScope, Public, HideBySig
+    SetNumRoom(ValueType Int32 IsBoxed): PrivateScope, Public, HideBySig
+    SetName(String): PrivateScope, Public, HideBySig
+    SetType(String, String, String, String, Int32, Int32, Boolean(HasFieldMarshal), ValueType DateTime IsBoxed, Double): PrivateScope, Public, HideBySig
+    SetImageFromBytes(Byte[]): PrivateScope, Public, HideBySig
+Class Library.UsersForAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Username : Public
+    System.ValueType id Int32 IsBoxed : Public
+    Boolean role : Public
+  Methods:
+    SetNameUser(String): PrivateScope, Public, HideBySig
+    GetName(): PrivateScope, Public, HideBySig
+    SetRoleUser(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    SetIdUser(Int32): PrivateScope, Public, HideBySig

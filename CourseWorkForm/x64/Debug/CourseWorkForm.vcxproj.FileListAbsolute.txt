@@ -1,0 +1,11 @@
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.vcxproj.AssemblyReference.cache
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.Addrs.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.Adminmenu.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.Fullrs.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.MainWindow1.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.Registration.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.Sign.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.Statistic.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.UserWindow.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.vcxproj.GenerateResource.cache
+C:\Users\mrfre\source\repos\CourseWorkForm\CourseWorkForm\x64\Debug\CourseWorkForm.vcxproj.CopyComplete

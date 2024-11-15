@@ -1,0 +1,4 @@
+C:\Users\mrfre\source\repos\CourseWorkForm\Library\x64\Debug\Library.vcxproj.AssemblyReference.cache
+C:\Users\mrfre\source\repos\CourseWorkForm\Library\x64\Debug\Library.MyUserControl.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\Library\x64\Debug\Library.UsersForAdmin.resources
+C:\Users\mrfre\source\repos\CourseWorkForm\Library\x64\Debug\Library.vcxproj.GenerateResource.cache
